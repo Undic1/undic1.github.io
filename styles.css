@@ -168,10 +168,10 @@ footer p {
     
     .top a {
         display: block;
-        padding: 20px;
-        font-size: 0.9rem;
+        padding: 0px;
+        font-size: 0.8rem;
         color: white;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
     }
     .banner img {
         max-width: 85px;
