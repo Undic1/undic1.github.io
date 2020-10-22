@@ -1,0 +1,374 @@
+body {
+    font-family: playfair Display, bold;
+ 
+}
+header {
+    background-color: white;
+    max-width: 100%;
+    padding-left: 5%;
+}
+.global {
+    max-width: 85%;
+    margin-left: 100px;
+    background-color: #f4f1f2;
+    padding-bottom: 50px;
+}
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.imagelogo {
+    max-width: 100%;
+}
+.menu {
+    font-family: Roboto;
+    font-size: 1.2rem;
+}
+
+ul {
+    max-width: 100%;
+}
+li {
+    display: inline-flex;
+    padding: 10px 20px 10px 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color:  #f4f1f2;
+    background-color: #f5937b;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5%;
+}
+a:hover {
+    color:  #f4f1f2;
+    background-color: #f5937b;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5%;
+
+  }
+
+
+#middletop {
+    background-color: #f4f1f2;
+    display: flex;
+    flex-direction: row;
+}
+#middletopright {
+    margin: 50px;
+    max-width: 100%;
+
+}
+#middletopleft {
+    margin: 50px;
+}
+h2 {
+    font-size: 2em;
+}
+
+button {
+    color:  #f4f1f2;
+    background-color: #f5937b;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5%;
+    border-width: 0px;
+}
+
+#middlemiddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#middlemiddleleft {
+    min-width: 50%;
+   
+    min-height: 60%;
+    
+}
+.middlemiddleright { 
+    min-width: 50%;
+
+    max-height: 59%;
+
+    background-color: #01294b;
+}
+.middlemiddleright h1 {
+    color: #f5937b;
+    margin: 15% 10% 10% 10%;
+    text-align: center;
+}
+.middlemiddleright p {
+    color: #f4f1f2;
+    margin: 0 10% 0 10%;
+    font-family: Roboto;
+    font-size: 1.25em;
+    text-align: center;
+    justify-content: center;
+}
+
+.info {
+    background-color: #f4f1f2;
+    color: rgb(13, 228, 228);
+    font-family: Roboto;
+    padding: 5% 0 2% 5%;
+}
+
+.lowerpart {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.image1 img {
+    width: 270px;
+    height: 180px;
+    object-fit: cover;
+}
+.border {
+    border-bottom: solid #f5937b;
+}
+
+figcaption {
+    display: block;
+    justify-content: center;
+  }
+
+  input {
+      border: none;
+      max-width: 150%;
+      height: 30px;
+  }
+
+
+  .subscribe {
+      text-align: center;
+      width: 500px;
+      margin-left: 30%;
+  }
+
+
+  .subscribe button {
+      width: 350px;
+      border-width: 3px;
+      background-color: #f4f1f2;
+      border-color: rgb(127, 110, 240);
+      color: rgb(127, 110, 240);
+      font-size: 1.5em;
+  }
+
+  h5 {
+      font-size: 2em;
+  }
+
+.sponsor {
+    color: red;
+
+}
+
+  footer {
+      background-color: #01294b;
+      color: #f4f1f2;
+      max-width: 84%;
+      margin-left: 100px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  h6 {
+      font-family: Roboto;
+      font-size: 1em;
+  }
+  .footerp {
+      color: #f5937b;
+      font-family: roboto;
+  }
+  .footerb {
+      background-color: rgb(13, 228, 228);
+      color: #f4f1f2;
+      margin-top: 20px;
+  }
+  .icons img {
+      margin-left: 7px;
+      margin-right: 7px;
+      max-width: 100%;
+  }
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+    body {
+        max-width: 90%;
+        font-size: 80%;
+        margin-left: 80px;
+        padding: 0;
+    }
+    
+    header {
+        max-width: 100%;
+        padding-left: 20px;
+    }
+    .imagelogo img {
+        max-width: 80%;
+    }
+    .global {
+        max-width: 90%;
+    }
+    .menu {
+        font-size: 1.25em;
+    }
+
+    li {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    
+    input {
+        max-width: 30%;
+    }
+    
+#middletop {
+    background-color: #f4f1f2;
+    display: flex;
+    flex-direction: column;
+}
+
+#middlemiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.middlemiddleright { 
+    min-width: 100%;
+    min-height: 100%;
+}
+.middlemiddleright h1 {
+    margin: 15% 10% 10% 10%;
+    text-align: center;
+}
+.middlemiddleright p {
+    margin: 0 10% 15% 10%;
+    font-family: Roboto;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+}
+.lowerpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.subscribe {
+    margin-left: 17%;
+}
+footer {
+
+    max-width: 90%;
+
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
+
+body {
+    max-width: 100%;
+    font-size: 70%;
+    margin-left: 10px;
+    padding: 0px;
+    }
+
+#global {
+    max-width: 70%;
+}
+header {
+    max-width: 100%;
+    padding-left: 20px;
+}
+.menu {
+    font-size: 1.25em;
+}
+li {
+    flex-direction: column;
+}
+
+#middletop {
+    background-color: #f4f1f2;
+    display: flex;
+    flex-direction: column;
+}
+.imagelogo {
+    max-width: 80%;
+}
+#middlemiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.middlemiddleright { 
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.middlemiddleright h1 {
+    margin: 15% 10% 10% 10%;
+    text-align: center;
+}
+.middlemiddleright p {
+    margin: 0 10% 15% 10%;
+    font-family: Roboto;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+}
+.lowerpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.subscribe {
+    text-align: center;
+    max-width: 70%;
+    margin-left: 10%;
+}
+.subscribe button {
+    width: 100px;
+}
+footer {
+    font-size: 45%;
+    padding-left: 10px;
+
+}
+.icons img {
+    max-width: 10%;
+}
+button {
+    max-width: 70%;
+    
+}
+#femail {
+    width: 80%;
+    height: 10%;
+}
+.footerb {
+    width: 80%;
+    font-size: 80%;
+}
+.column {
+    width: 50%;
+}
+}
