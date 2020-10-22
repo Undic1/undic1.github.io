@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: undic1.github.io
-Token: 9850a2333987651a20dddf4bc28a2f65920c46c4b64babc6d642cd0a75102e4d
